@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator by Diogo Alves</title>
+</head>
+
+<body>
+    <div class="container">
+        <p class="info-text">Enter your text or URL</p>
+        <input class="input-text" type="text" placeholder="Text or URL">
+        <div class="qr-div">
+            <img class="qr-img" src="" alt="QR Code Image">
+            <p class="qr-text"></p>
+        </div>
+        <button onclick="generateQR()" class="button-generate">Generate QR Code</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
